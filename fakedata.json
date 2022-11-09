@@ -2,91 +2,385 @@
     {
         "id": 100,
         "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
+        "image": "https://i.ibb.co/FKG8gCz/1592076406.jpg",
+        "galaryImage": [
+            {
+                "src": "https://i.ibb.co/ZfKfMQh/1200px-Keokradong-Ruma-Bandarban-Bangladesh.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://i.ibb.co/HpKjhWQ/Boga-Lake-Bandarban.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://i.ibb.co/pvy1btj/51824091804-de5ed9d670-b.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/x5TJtz4/photo-1631642386603-5618fa038ad1-ixlib-rb-4-0.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/rxz3H8t/c334ab6e9e25d9cb950f171d59eab465.jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://i.ibb.co/FKG8gCz/1592076406.jpg",
+        "video": "https://www.youtube.com/embed/rn0nkEZdoRg",
+        "rating": {
+            "5": 4,
+            "4": 3,
+            "3": 2,
+            "2": 1,
+            "1": 0,
+            "0": 0
+        },
         "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "Regular stress of city life tends to suck the energy out of the soul pushing people towards chronic anxiety. Every once in a while, you must plan a vacation on a hill, where the blue sky, unruly hilly rivers, and voluminous natural cascades can revive your soul. Visit Bandarban tourist spots! Located in the southwestern part of the country, and part of the storied Chittagong Hill Tracts, the Bandarban district holds enough magic to do the trick. In this article, we are going to focus on the best places to see and the craziest things to do in Bandarban.",
+        "Description_Two": "During the monsoon season, the weather of Bandarban feels warm with good chances for rain. Tourists hardly visit Bandarban in these months. If you are looking for deals and offers at resorts and hotels, take the chance. However, during the rainy season the Hill Tracts region including Bandarban Hill District runs the risk of landslides, which can hinder the local transportation system for days.",
+        "Description_Three": "Due to the nice weather with very small chances of rainfall, Winter is the best as well as the busiest season for tourism in Bandarban. The charges of hotels and resorts usually increase during this period."
     },
     {
         "id": 200,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "serviceName": "Travel sylhet with me",
+        "image": "https://i.ibb.co/5TJNd1R/1492238923-8.jpg",
+        "galaryImage": [
+            {
+                "src": "https://thegreenpagebd.com/wp-content/uploads/2019/12/1-2.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://thegreenpagebd.com/wp-content/uploads/2019/12/5-2.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://sylhettouristplaces.com/wp-content/uploads/2020/02/Bisnakandi-Sylhet.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/blogEPV3bn3HLVz5FsSn84UsOGw2cTM0H4dJ.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/blogppTuZdiK6xhZgo6w6Y1geqA4QjdN5fS7.jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://i.ibb.co/5TJNd1R/1492238923-8.jpg",
+        "video": "https://www.youtube.com/embed/oli4wgFcy0s",
+        "rating": {
+            "5": 5,
+            "4": 3,
+            "3": 2,
+            "2": 0,
+            "1": 0,
+            "0": 0
+        },
+        "price": "9000",
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "Who does not want to go to the natural environment? Many people want to get out of town life and walk around the nature sanctuary. Many people also like to be surrounded by greenery and walking in the open air. Surrounded by mountains and greenery, many people dream to get lost in nature. And if you want to make this dream a reality, you can visit Sylhet, the northeast area of Bangladesh. Sylhet, located on the banks of the Surma River, has several tourist centers, including various hills, tea gardens.",
+        "Description_Two": "Fancy a walk in the middle of a refreshing tea garden while nature rejuvenates your body and soul? Yes, today we are talking about Sylhet and the best places around it. It is unlikely that you are in Bangladesh but never thought about visiting Sylhet. This place has this influence over the travelers regardless of their nationality. The welcoming nature of the green surroundings, swamps along with the hillside beauty of the locality is too irresistible.",
+        "Description_Three": "Before making your tour plan to Sylhet, you must be aware of the best time to visit Sylhet to experience the most beautiful version of it. According to our observation, the most popular time to visit Sylhet are from November to January. Usually, the temperature stays around 23 - 25 degrees Celsius. That creates a comfortable atmosphere that is suitable both for domestic and international tourists. This is why tourists mostly plan ahead to visit Sylhet during this time of the year.If you want to experience the beauty of Sylhet during the rainy season, June to September will be a great time for you. Usually, there will be a lot of rainfall during these times of the year which washes away dust, and nature looks as if it is reborn!"
     },
     {
         "id": 300,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "serviceName": "Travel saintmartin with me",
+        "image": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1878484_Saint%20Martins%20Island%20Bangladesh.jpg",
+        "galaryImage": [
+            {
+                "src": "https://travelvibe.net/wp-content/uploads/2021/03/Most-attractive-tourist-attraction-of-bangladesh-saint-martin-e1615271792566.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://live.staticflickr.com/2738/4195504888_edb9cc9fb6_b.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://awalkintheworld.com/wp-content/uploads/2020/08/beach-saint-martins-island-bangladesh-1920x1080.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://farm4.staticflickr.com/3680/9760927662_17ff9a403e_b.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Saint_Martin_%286%29.jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1878484_Saint%20Martins%20Island%20Bangladesh.jpg",
+        "video": "https://www.youtube.com/embed/CIl0wNuooiM",
+        "rating": {
+            "5": 6,
+            "4": 3,
+            "3": 1,
+            "2": 0,
+            "1": 0,
+            "0": 0
+        },
+        "price": "15000",
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "Saint Martin's Island is one of the most admired tourist places that get into the itinerary of travelers while planning long tours inside Bangladesh. This is the only coral island in the southernmost part of the mainland of Bangladesh, awake with the wonder of thousands of tourists. 9-km south of Teknaf in Cox's Bazar, at the estuary of the Naf River, this small island is proudly announcing its existence with an area of only 3 sq-km. The travel feature is created this time with details of this place of interest. Let’s have them.",
+        "Description_Two": "At first, flying and playing in the foamy sea of white Gangchils on the sea route from Teknaf to Saint Martin island will give you an intro to the upcoming endless joys. Although it consists of seven different neighborhoods, each of them is woven in a single thread-like pearl necklace. In the afternoon with a cup of tea, you can witness the best sunset of your life from the west coast of the island. There is no alternative to West Beach to dive into Saint Martin. Spend the morning on East Beach. East Beach takes on a magical look when the first rays of the sun catch your eyes by climbing the mountains of Myanmar. Chheradwip is formed by relying on corals in the southernmost part of the island. It is called Chheradip because it gets separated from the main island during the monsoon season. In addition to sea and sunbathing, Saint Martin is also a great place for scuba diving, snorkeling, and barbecue. If you don’t stay there for at least one day, you will have to come back with lots of regrets.",
+        "Description_Three": "Ships usually sail from Teknaf during these five months from November to March or April. For other times, you have to use trawlers or speedboats. Moreover, the sea is rough at times other than winter. Therefore, it is comparatively safer to travel Saint Martin's Island during the winter season."
     },
     {
         "id": 400,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "serviceName": "Travel maldivs with me",
+        "image": "https://articlesdo.com/wp-content/uploads/2021/06/maldives-visit.jpg",
+        "galaryImage": [
+            {
+                "src": "https://media.architecturaldigest.com/photos/6032b337b526975f5405e0a0/16:9/w_2560%2Cc_limit/Hero_Soneva%2520Jani%2520Chapter%2520Two%2520by%2520Aksham%2520Abdul%2520Ghadir.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://lp-cms-production.imgix.net/2020-09/The%20Nautilus%20Maldives_July19-9335.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://images.hindustantimes.com/img/2021/03/13/1600x900/6420c570-834d-11eb-a12f-8b2f13f9e637_1615645493033.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iBtO2Rx1HCrQ/v1/-1x-1.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/24/146502.jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://articlesdo.com/wp-content/uploads/2021/06/maldives-visit.jpg",
+        "video": "https://www.youtube.com/embed/1bmYp83ZUzY",
+        "rating": {
+            "5": 6,
+            "4": 3,
+            "3": 1,
+            "2": 0,
+            "1": 0,
+            "0": 0
+        },
+        "price": "48000",
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "The Maldives are an island nation in the Indian Ocean. They are in southern Asia near the equator. There are some 1,200 coral islands, or atolls, distributed north to south across the Indian Ocean like a pearl necklace strung by the heavens. Of these islands, some 200 of them are large enough to be inhabited by people. One hundred islands currently house a single high-end resort hotel that takes up the entire space of the island. The brilliant blue sea, the white sandy beach and the sparkling sunshine undoubtedly are what makes the Maldives synonymous with the idea of a honeymoon in paradise.",
+        "Description_Two": "Every resort in Maldives is its own private island, and with over 100 to choose from the only problem is selecting where you want to stay. At the top end, the world’s most exclusive hotel brands compete with each other to attain ever-greater heights of luxury, from personal butlers and private lap pools to in-room massages and pillow menus. It’s not surprising that honeymooners and those seeking a glamorous tropical getaway have long had the country at the very top of their wish lists. But there’s also plenty of choice beyond the five- and six-star resorts.",
+        "Description_Three": "With some of the best diving and snorkeling in the world, the clear waters of Maldives are a magnet for anyone with an interest in marine life. The richness and variety is astonishing; dazzling coral walls, magnificent caves and schools of brightly colored tropical fish await you when you get down to the reef. In deeper waters lurk manta rays, turtles, sharks and even the world’s largest fish, the whale shark. The best bit? The water is so warm many people don’t even wear a wetsuit."
     },
     {
         "id": 500,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "serviceName": "Travel kashmir with me",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg/640px-Neeulm_Valley_AJK_%28Arang_Kel%29.jpg",
+        "galaryImage": [
+            {
+                "src": "https://images.thrillophilia.com/image/upload/s--WgP7MnKl--/c_fill,g_center,h_642,q_auto,w_1280/f_auto,fl_strip_profile/v1/images/photos/000/260/247/original/1589379671_shutterstock_394896406.jpg.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://dhakato.com/wp-content/uploads/2022/04/photo-1598091383021-15ddea10925d.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://static.toiimg.com/photo/msid-81989634,width-96,height-65.cms",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://images.theconversation.com/files/270434/original/file-20190423-175524-3k25ny.jpg?ixlib=rb-1.1.0&rect=8%2C8%2C989%2C494&q=45&auto=format&w=1356&h=668&fit=crop",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://assets.gqindia.com/photos/616d2712c93aeaf2a32d61fe/master/pass/top-image%20(1).jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg/640px-Neeulm_Valley_AJK_%28Arang_Kel%29.jpg",
+        "video": "https://www.youtube.com/embed/xH9fl1UkRQE",
+        "rating": {
+            "5": 6,
+            "4": 3,
+            "3": 1,
+            "2": 0,
+            "1": 0,
+            "0": 0
+        },
+        "price": "36000",
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "The default backdrop for every cosy Bollywood romance of the 80s, the snowy vales and kaleidoscopic flowerscapes of Kashmir are every bit as cinematic as the silver screen promises. Whether you experience it in a state of full bloom come spring/summer, or bear witness to its ensorcelling winter beauty, there’s always magic to partake of in Kashmir.",
+        "Description_Two": "Starting at the capital always bodes well; and the arresting scapes of Srinagar have plenty of wonderful places you could temporarily call home. There’s the Vivanta Dal View, Srinagar, decadent in its sprawling Kralsangri hill estate and wintertime views of the snow-tipped peaks of the Zabarwan range, best enjoyed over private dinners or over kahwa at the tea lounge. The LaLiT Grand Palace, Srinagar, is also deliciously opulent, ensconced as it is by the glimmering lake and the Himalayas. Their restaurant, The Chinar, is famously considered one of the foremost in Kashmir.",
+        "Description_Three": "If you’re after something more authentically Kashmiri, Mascot Houseboats make for a great change of pace. Moored near the clear waters of Nageen Lake, these old-school houseboats give you a five-star experience–on the water. You can get boats that go up to five bedrooms, so it's fairly large-family friendly. When you move to Gulmarg, The Khyber Himalayan Resort & Spa should factor high on your list of bases–for its magnificent setting (8,825 feet above sea level in the Pir Panjal Range of the Himalayas), Spa by L’Occitane and golf course (the world’s highest)."
     },
     {
         "id": 600,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
-    },
-    {
-        "id": 700,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
-    },
-    {
-        "id": 800,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
-    },
-    {
-        "id": 900,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
-    },
-    {
-        "id": 1000,
-        "serviceName": "Travel Bandarban with me",
-        "image": "https://placeimg.com/1000/800/nature",
-        "thumbnail": "https://placeimg.com/400/225/nature",
-        "rating": 4.5,
-        "price": "6000",
-        "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deserunt sint obcaecati necessitatibus, nobis nihil architecto aliquam minima harum odit a, fugiat magni eum aspernatur beatae veniam dolorem et reprehenderit dolor mollitia tempore eligendi? Culpa laudantium quo earum voluptatibus reprehenderit sit non dignissimos enim quae in harum at soluta consequuntur ut tempora totam esse iure assumenda odit dolore aut officiis, porro natus! Enim consectetur placeat, delectus vitae quidem tempore eius officia commodi dicta cum aut doloribus perspiciatis harum voluptatum dolorum unde magni quod, reprehenderit eos dolor? Repellendus natus sit esse necessitatibus ipsa, praesentium eius officia, possimus quibusdam fuga cupiditate corporis?"
+        "serviceName": "Travel Bhutan with me",
+        "image": "https://bangladeshmonitor.com.bd/news_img/bh.jpg",
+        "galaryImage": [
+            {
+                "src": "https://cdn.britannica.com/11/83411-050-217610BA/Tiger-monastery-Nest-Buddhist-Bhutan.jpg",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://cdn.ceoworld.biz/wp-content/uploads/2022/07/The-Rich-Life-And-wild-landscapes-Of-Bhutan-In-The-Himalayas-%E2%80%93-Anna-Siampani.jpg",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://www.lostwithpurpose.com/wp-content/uploads/2018/05/DSC02425.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://ychef.files.bbci.co.uk/976x549/p02nq9q5.jpg",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/03/Bhutan-cover_25th-Mar.jpg",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "thumbnail": "https://bangladeshmonitor.com.bd/news_img/bh.jpg",
+        "video": "https://www.youtube.com/embed/Is6s_3dBfoI",
+        "rating": {
+            "5": 6,
+            "4": 3,
+            "3": 1,
+            "2": 0,
+            "1": 0,
+            "0": 0
+        },
+        "price": "36000",
+        "feature": [
+            {
+                "title": "3 day 4 night package",
+                "description": "We know, You want it more, but you have a regular life to come back. Moreover, we are always here for your vacation trip."
+            },
+            {
+                "title": "Addon : One Person",
+                "description": "No! We don't want you to be alone. Life is already boring. We are just trying to make it little fun for you."
+            },
+            {
+                "title": "Your Menu : Our Chef",
+                "description": "Food is the ultimate truth of everything. So we don't want you to suffer from hunger. Our Chef will be there for your tummy! Just try to keep the menu little simple! Comeon! we can't cook turkey on a boat!"
+            },
+            {
+                "title": "9 Months EMI with 0% Interest",
+                "description": "Yes! You read it right. By the way, we accept VISA & MasterCard. You are welcome!"
+            }
+        ],
+        "Description_One": "Trekking to sublime mountains, exploring the colorful villages, meditating inside the peaceful monasteries, and learning the history of the dzongs—there are plenty of things to do in Bhutan that are sure to leave you mesmerized. Tourist flocking to the happiest country in the world arelured by its natural beauty, old monasteries, its colorful festivals, and warm Bhutanese hospitality. So, are you ready for the ultimate things that you can do in Bhutan? Let’s dive in!",
+        "Description_Two": "India’s beautiful neighboring country has something for all; it attracts families, friends, and hundreds of bikers and solo travelers every year. A rare place on this planet Earth where one hardly sees any signs of commercialization, Bhutan is a perfect place to visit. And it is primarily because for travelers, there is no dearth of places to see and things to do in Bhutan.",
+        "Description_Three": "Bhutan is the kind of place where you’ll find hand-painted wall murals, crimson chilies drying in the sun, and cozy cafes wherever you go. Explore its vibrant culture as you indulge in your favorite activities in Bhutan. Plan your vacation to Bhutan and convince all your friends to tick off this destination from your bucket list. Wait no more, pack your bags, and get set go!"
     }
 ]
