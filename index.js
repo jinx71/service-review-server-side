@@ -2,11 +2,11 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
-const data = require('./fakedata.json')
+// const data = require('./fakedata.json')
 require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 app.use(cors())
-
+app.use(express.json())
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.ssqjlwr.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
@@ -15,7 +15,13 @@ async function run() {
     try {
         const servicesCollection = client.db("TravelWithMe").collection("Services");
         app.get('/', async (req, res) => {
-            const cursor = servicesCollection.find({});
+            const query = {}
+            const sort = { length: -1 };
+            const limit = 3;
+            const cursor = servicesCollection.find(query).sort(sort).limit(limit);
+
+            // const cursor = servicesCollection.find({});
+
             const services = await cursor.toArray();
             // console.log(services)
             res.send(services);
@@ -27,7 +33,10 @@ async function run() {
             res.send(services);
         })
         app.get('/home', async (req, res) => {
-            const cursor = servicesCollection.find({});
+            const query = {}
+            const sort = { length: -1 };
+            const limit = 3;
+            const cursor = servicesCollection.find(query).sort(sort).limit(limit);
             const services = await cursor.toArray();
             // console.log(services)
             res.send(services);
@@ -41,6 +50,13 @@ async function run() {
             console.log(service)
             // console.log(service)
             res.send(service);
+        })
+        app.post('/add-service', async (req, res) => {
+            const newService = req.body;
+            console.log(newService)
+            const result = await servicesCollection.insertOne(newService)
+            console.log(result)
+            res.send(result.acknowledged)
         })
     }
     finally {
