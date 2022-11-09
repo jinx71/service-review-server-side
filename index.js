@@ -13,6 +13,17 @@ app.use(express.json())
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.ssqjlwr.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
+const dateTime = () => {
+    let dateTimeArray = [];
+    let dateTimeString = new Date(Date.now());
+    let time = dateTimeString.toLocaleTimeString('en-uk', { hour12: false });
+    let date = dateTimeString.toLocaleDateString('en-uk', { year: "numeric", month: "short", day: "numeric" });
+    dateTimeArray.push(time, date);
+
+    return dateTimeArray;
+}
+
+
 // Database CRUD Operation
 
 async function run() {
@@ -45,6 +56,7 @@ async function run() {
             console.log(query)
             const option = {};
             const service = await servicesCollection.findOne(query);
+            // console.log(service)
             res.send(service);
         })
         app.post('/add-service', async (req, res) => {
@@ -63,6 +75,7 @@ async function run() {
             modReview["personalRating"] = newReview.personalRating
             modReview["reviewDetails"] = newReview.reviewDetails
             modReview["serviceName"] = newReview.serviceName
+            modReview["date"] = dateTime()[1]
             const query = { _id: ObjectId(newReview._id) };
             const service = await servicesCollection.findOne(query);
             const updatedReview = service.review.push(modReview)
