@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
-// const data = require('./fakedata.json')
 require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 app.use(cors())
@@ -19,17 +18,12 @@ async function run() {
             const sort = { length: -1 };
             const limit = 3;
             const cursor = servicesCollection.find(query).sort(sort).limit(limit);
-
-            // const cursor = servicesCollection.find({});
-
             const services = await cursor.toArray();
-            // console.log(services)
             res.send(services);
         })
         app.get('/services', async (req, res) => {
             const cursor = servicesCollection.find({});
             const services = await cursor.toArray();
-            // console.log(services)
             res.send(services);
         })
         app.get('/home', async (req, res) => {
@@ -38,7 +32,6 @@ async function run() {
             const limit = 3;
             const cursor = servicesCollection.find(query).sort(sort).limit(limit);
             const services = await cursor.toArray();
-            // console.log(services.map(a => a._id))
             res.send(services);
         })
         app.get('/services/:id', async (req, res) => {
@@ -47,8 +40,6 @@ async function run() {
             console.log(query)
             const option = {};
             const service = await servicesCollection.findOne(query);
-            // console.log(service)
-            // console.log(service)
             res.send(service);
         })
         app.post('/add-service', async (req, res) => {
@@ -76,7 +67,6 @@ async function run() {
             })
 
             const updatedservice = await servicesCollection.findOne(query);
-            // console.log(updatedservice)
             res.send(updatedservice)
         })
         app.post('/delete-review', async (req, res) => {
@@ -100,28 +90,5 @@ async function run() {
 
 }
 run().catch(err => console.log(err))
-
-
-
-// app.get('/', (req, res) => {
-//     res.send(data)
-// });
-// app.get('/home', (req, res) => {
-//     res.send(data)
-// });
-// app.get('/services', (req, res) => {
-//     res.send(data)
-// });
-// app.get('/services/:id', (req, res) => {
-//     const id = parseInt(req.params.id)
-//     console.log(id)
-//     const service = data.find(a => a.id === id)
-//     console.log(service)
-//     res.send(service)
-// });
-
-app.post('/', (req, res) => {
-    res.send('Hello world')
-})
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
