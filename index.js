@@ -66,6 +66,7 @@ async function run() {
             modReview["email"] = newReview.email
             modReview["personalRating"] = newReview.personalRating
             modReview["reviewDetails"] = newReview.reviewDetails
+            modReview["serviceName"] = newReview.serviceName
             const query = { _id: ObjectId(newReview._id) };
             const service = await servicesCollection.findOne(query);
             const updatedReview = service.review.push(modReview)
@@ -77,6 +78,20 @@ async function run() {
             const updatedservice = await servicesCollection.findOne(query);
             // console.log(updatedservice)
             res.send(updatedservice)
+        })
+        app.post('/delete-review', async (req, res) => {
+            const newReview = req.body;
+            console.log(newReview)
+            const services = await servicesCollection.update(
+                { serviceName: newReview.serviceName },
+                {
+                    $pull: {
+                        review: newReview
+                    }
+                }
+            );
+            console.log(services)
+            res.send(services.acknowledged)
         })
     }
     finally {
