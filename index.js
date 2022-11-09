@@ -38,7 +38,7 @@ async function run() {
             const limit = 3;
             const cursor = servicesCollection.find(query).sort(sort).limit(limit);
             const services = await cursor.toArray();
-            // console.log(services)
+            // console.log(services.map(a => a._id))
             res.send(services);
         })
         app.get('/services/:id', async (req, res) => {
@@ -47,7 +47,7 @@ async function run() {
             console.log(query)
             const option = {};
             const service = await servicesCollection.findOne(query);
-            console.log(service)
+            // console.log(service)
             // console.log(service)
             res.send(service);
         })
@@ -57,6 +57,26 @@ async function run() {
             const result = await servicesCollection.insertOne(newService)
             console.log(result)
             res.send(result.acknowledged)
+        })
+        app.post('/add-review', async (req, res) => {
+            const newReview = req.body;
+            const modReview = {};
+            modReview["profileImage"] = newReview.profileImage
+            modReview["displayName"] = newReview.displayName
+            modReview["email"] = newReview.email
+            modReview["personalRating"] = newReview.personalRating
+            modReview["reviewDetails"] = newReview.reviewDetails
+            const query = { _id: ObjectId(newReview._id) };
+            const service = await servicesCollection.findOne(query);
+            const updatedReview = service.review.push(modReview)
+            console.log(service.review)
+            const updateServiceWithReview = await servicesCollection.updateOne(query, {
+                $push: { "review": modReview }
+            })
+
+            const updatedservice = await servicesCollection.findOne(query);
+            // console.log(updatedservice)
+            res.send(updatedservice)
         })
     }
     finally {
