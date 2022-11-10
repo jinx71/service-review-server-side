@@ -19,13 +19,13 @@ function verifyJWT(req, res, next) {
         return res.status(401).send({ message: 'unauthorized access' });
     }
     const token = authHeader.split(' ')[1];
-    console.log(token)
+    // console.log(token)
     jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, function (err, decoded) {
         if (err) {
             return res.status(403).send({ message: 'Forbidden access' });
         }
         req.decoded = decoded;
-        console.log('tokenOk')
+        // console.log('tokenOk')
         next();
     })
 }
@@ -34,6 +34,7 @@ function verifyJWT(req, res, next) {
 
 // MongoDB Database Connection
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.ssqjlwr.mongodb.net/?retryWrites=true&w=majority`;
+// console.log(uri)
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 const dateTime = () => {
@@ -52,6 +53,7 @@ const dateTime = () => {
 async function run() {
     try {
         const servicesCollection = client.db("TravelWithMe").collection("Services");
+        // console.log("Connected")
         app.get('/', async (req, res) => {
             const query = {}
             const sort = { length: -1 };
@@ -66,40 +68,18 @@ async function run() {
             res.send({ token })
         })
         app.get('/services', async (req, res) => {
-            // console.log(req.body)
-            // const decoded = req.decoded;
-
-            // if (decoded.email !== req.query.email) {
-            //     res.status(403).send({ message: 'unauthorized access' })
-            // }
-
-            // let query = {};
-            // if (req.query.email) {
-            //     query = {
-            //         email: req.query.email
-            //     }
-            // }
-
             const cursor = servicesCollection.find({});
             const services = await cursor.toArray();
             res.send(services);
         })
         app.get('/my-review', verifyJWT, async (req, res) => {
-            console.log(req.query)
+            // console.log(req.query)
             const decoded = req.decoded;
-
             if (decoded.email !== req.query.email) {
                 res.send("403")
-                res.status(403).send({ message: 'unauthorized access', email: req.query.email })
+                res.status(403).send({ message: 'unauthorized access'})
             }
-
             let query = {};
-            if (req.query.email) {
-                query = {
-                    email: req.query.email
-                }
-            }
-
             const cursor = servicesCollection.find({});
             const services = await cursor.toArray();
             res.send(services);
@@ -113,9 +93,9 @@ async function run() {
             res.send(services);
         })
         app.get('/services/:id', async (req, res) => {
-            console.log(req.params.id)
+            // console.log(req.params.id)
             const query = { _id: ObjectId(req.params.id) };
-            console.log(query)
+            // console.log(query)
             const option = {};
             const service = await servicesCollection.findOne(query);
             // console.log(service)
@@ -123,9 +103,9 @@ async function run() {
         })
         app.post('/add-service', async (req, res) => {
             const newService = req.body;
-            console.log(newService)
+            // console.log(newService)
             const result = await servicesCollection.insertOne(newService)
-            console.log(result)
+            // console.log(result)
             res.send(result.acknowledged)
         })
         app.post('/add-review', async (req, res) => {
@@ -141,7 +121,7 @@ async function run() {
             const query = { _id: ObjectId(newReview._id) };
             const service = await servicesCollection.findOne(query);
             const updatedReview = service.review.push(modReview)
-            console.log(service.review)
+            // console.log(service.review)
             const updateServiceWithReview = await servicesCollection.updateOne(query, {
                 $push: { "review": modReview }
             })
@@ -160,12 +140,12 @@ async function run() {
                     }
                 }
             );
-            console.log(services)
+            // console.log(services)
             res.send(services.acknowledged)
         })
         app.post('/edit-review', async (req, res) => {
             const newReview = req.body;
-            console.log(newReview)
+            // console.log(newReview)
             const services = await servicesCollection.update(
                 { serviceName: newReview.serviceName },
                 {
@@ -174,12 +154,12 @@ async function run() {
                     }
                 }
             );
-            console.log(services)
+            // console.log(services)
             res.send(services.acknowledged)
         })
     }
     finally {
-        console.log('hello')
+        // console.log('hello')
     }
 
 }
